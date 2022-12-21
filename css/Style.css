@@ -106,7 +106,7 @@ h1 {
   font-family: "Harabara", sans-serif;
   font-size: 44px;
   font-weight: 400;
-  letter-spacing: 3%;
+  letter-spacing: 3px;
   line-height: 60px;
 }
 
@@ -114,7 +114,7 @@ h2 {
   font-family: "Harabara", sans-serif;
   font-size: 36px;
   font-weight: 400;
-  letter-spacing: 10%;
+  letter-spacing: 10px;
   line-height: 38px;
 }
 
@@ -122,7 +122,7 @@ h3 {
   font-family: "Harabara", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  letter-spacing: 5%;
+  letter-spacing: 5px;
   line-height: 38px;
   color: #0D6EB7;
 }
@@ -181,7 +181,7 @@ body {
   border-color: white;
   border: 2px solid white;
   border-radius: 6px;
-  padding: 10 54;
+  padding: 10px 54px;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
@@ -288,7 +288,7 @@ body {
   border-color: #06B25F;
   border: 2px solid #06B25F;
   border-radius: 6px;
-  padding: 10 54;
+  padding: 10px 54px;
 }
 
 .btn-green-first
@@ -399,7 +399,7 @@ body {
   background-color: #00000000;
   border: 2px solid #06B25F;
   border-radius: 6px;
-  padding: 10 54;
+  padding: 10px 54px;
 }
 
 .services-block {
@@ -528,7 +528,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   background-color: #2DA531;
-  padding: 17 95;
+  padding: 17px 95px;
   width: 100%;
 }
 
@@ -543,7 +543,7 @@ body {
   border-radius: 16px;
   -webkit-box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
           box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
-  padding: 50 40 70 40;
+  padding: 50px 40px 70px 40px;
   max-width: 477px;
   margin-top: 55px;
 }
@@ -645,7 +645,7 @@ body {
 }
 
 .project-text {
-  padding: 16 16 20 16;
+  padding: 16px 16px 20px 16px;
 }
 
 .products-blocks {
@@ -703,7 +703,7 @@ body {
 }
 
 .portfolio-text {
-  padding: 24 38 24 24;
+  padding: 24px 38px 24px 24px;
 }
 
 .article-first {
@@ -741,7 +741,7 @@ body {
   background-color: #e5eaf1;
   -webkit-box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
           box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
-  padding: 36 0;
+  padding: 36px 0px;
   width: 100%;
   border-radius: 16px;
   margin-top: 36px;
@@ -837,12 +837,12 @@ footer a {
 
 .accordion-header p {
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 @media (max-width: 1400px) {
   .btn, .btn-primary {
-    padding: 10 34;
+    padding: 10px 34px;
   }
   footer {
     min-height: 650px;
@@ -907,14 +907,14 @@ footer a {
             align-items: center;
   }
   .portfolio-block img {
-    max-width: 553;
+    max-width: 553px;
     padding: 10px;
   }
 }
 
 @media (max-width: 992px) {
   .technologies-block {
-    padding: 30 0;
+    padding: 30px 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1008,7 +1008,7 @@ footer a {
     min-width: 150px;
   }
   .services-icon h3 {
-    font-size: 12;
+    font-size: 12px;
     line-height: 15px;
   }
   .services-icon img {
@@ -1114,7 +1114,7 @@ footer a {
     border-color: #06B25F;
     border: 2px solid #06B25F;
     border-radius: 6px;
-    padding: 10 10;
+    padding: 10px 10px;
   }
   .services-2 h3 {
     margin-top: 25px;
@@ -1168,7 +1168,7 @@ footer a {
     min-width: 120px;
   }
   .services-icon h3 {
-    font-size: 12;
+    font-size: 12px;
     line-height: 15px;
   }
   .services-icon img {
@@ -1177,7 +1177,7 @@ footer a {
   .products-block {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
-    margin-top: -100;
+    margin-top: -100px;
   }
 }
 /*# sourceMappingURL=Style.css.map */
