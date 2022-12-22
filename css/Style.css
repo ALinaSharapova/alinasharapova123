@@ -503,7 +503,7 @@ body {
 .contacts-form {
   height: 464px;
   width: 100%;
-  background-image: url("/img/bg-contacts.png");
+  background-image: url("/img/bgcontacts.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;

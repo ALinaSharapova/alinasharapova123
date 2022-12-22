@@ -20,7 +20,7 @@ h1{
     font-family: $text-title;
     font-size: 44px;
     font-weight: 400;
-    letter-spacing: 3%;
+    letter-spacing: 3px;
     line-height: 60px;
     
 }
@@ -28,14 +28,14 @@ h2{
     font-family: $text-title;
     font-size: 36px;
     font-weight: 400;
-    letter-spacing: 10%;
+    letter-spacing: 10px;
     line-height: 38px;
 }
 h3{
     font-family: $text-title;
     font-size: 24px;
     font-weight: 400;
-    letter-spacing: 5%;
+    letter-spacing: 5px;
     line-height: 38px;
     color: #0D6EB7;
 }
@@ -88,7 +88,7 @@ body{
     border-color: white;
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 6px;
-    padding: 10 54;
+    padding: 10px 54px;
     transition: 500ms;
 }
 .btn:first-child:hover, :not(.btn-check)+.btn:hover {
@@ -191,7 +191,7 @@ body{
     border-color: #06B25F;
     border: 2px solid #06B25F;
     border-radius: 6px;
-    padding: 10 54;
+    padding: 10px 54px;
 }
 .btn-green-first
 .btn-green-first:first-child:hover, :not(.btn-green-first-check)+.btn-green-first:hover {      
@@ -272,7 +272,7 @@ body{
     background-color: #00000000;
     border: 2px solid #06B25F;
     border-radius: 6px;
-    padding: 10 54;
+    padding: 10px 54px;
     
 }
 .services-block{
@@ -346,7 +346,7 @@ body{
 .contacts-form{
     height: 464px;
     width: 100%;
-    background-image: url("/img/bg-contacts.png");
+    background-image: url("/img/bgcontacts.png");
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -365,7 +365,7 @@ body{
     font-size: 18px;
     font-weight: $font-weight700;
     background-color: #2DA531;
-    padding: 17 95;
+    padding: 17px 95px;
     width: 100%
 }
 
@@ -379,7 +379,7 @@ body{
     background-color: #fff;
     border-radius: 16px;
     box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
-    padding: 50 40 70 40;
+    padding: 50px 40px 70px 40px;
     max-width: 477px;
     margin-top: 55px;
 }
@@ -451,7 +451,7 @@ body{
     max-height: 480px;
 }
 .project-text{
-    padding: 16 16 20 16;
+    padding: 16px 16px 20px 16px;
 }
 
 .products-blocks{
@@ -494,7 +494,7 @@ body{
 }
 
 .portfolio-text{
-      padding: 24 38 24 24;
+      padding: 24px 38px 24px 24px;
 }
 
 .article-first{
@@ -518,7 +518,7 @@ body{
     align-items: center;
     background-color: #e5eaf1;
     box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
-    padding: 36 0;
+    padding: 36px 0px;
     width: 100%;
     border-radius: 16px;
     margin-top: 36px;
@@ -592,13 +592,13 @@ footer{
 .accordion-header{
     p{
         font-size: 20px;
-        font-weight: 700px;
+        font-weight: 700;
 
     }
 }
 @media (max-width: 1400px){
     .btn, .btn-primary{
-        padding: 10 34;
+        padding: 10px 34px;
     }
     footer{
         min-height: 650px;
@@ -643,7 +643,7 @@ footer{
         align-items: center;
 
             img{
-                max-width: 553;
+                max-width: 553px;
                
                 padding: 10px;
             }
@@ -652,7 +652,7 @@ footer{
 }
 @media (max-width: 992px){
     .technologies-block{
-        padding: 30 0;
+        padding: 30px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -740,7 +740,7 @@ footer{
     }
     .services-icon{
         h3{
-            font-size: 12;
+            font-size: 12px;
             line-height: 15px;
         }
         img{
@@ -858,7 +858,7 @@ footer{
         border-color: #06B25F;
         border: 2px solid #06B25F;
         border-radius: 6px;
-        padding: 10 10;
+        padding: 10px 10px;
     }
     .services-2{
         h3{
@@ -900,7 +900,7 @@ align-items: center;
 @media (max-width: 320px){
     .services-icon{
     h3{
-        font-size: 12;
+        font-size: 12px;
         line-height: 15px;
     }
     img{
@@ -915,6 +915,6 @@ align-items: center;
 }
 .products-block{
     transform: scale(0.7);
-    margin-top: -100;
+    margin-top: -100px;
 }
 }
